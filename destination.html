@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vishal Bharat 🌍</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  
+      <link rel="stylesheet" href="destination.css">
+  
+</head>
+<body>
+
+  <header>
+    <div class="logo">Vishal Bharat🌍</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="destination.html">Destinations</a>
+      <a href="TripPlanner.html">Trip Planner</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login</a>
+    </nav>
+  </header>
+
+  <section class="hero-section">
+  <div class="hero-text">
+    <p style="color:#ff9f47; font-weight: 600;">Know Before You Go ✈️</p>
+    <h1>Explore <span>the world</span> together</h1>
+    <p>We always make our customers happy by providing as many choices as possible.</p>
+
+   <form action="FestivalSearchServlet" method="get" class="search-box">
+  <input type="text" name="keyword" placeholder="Search Festival, Month or Location..." required />
+  
+  <input type="date" name="travelDate" />
+  
+  <select name="guests">
+    <option value="" disabled selected>No. of Guests</option>
+    <option value="1">1 Guest</option>
+    <option value="2">2 Guests</option>
+    <option value="3">3+ Guests</option>
+  </select>
+
+  <button type="submit" class="search-btn">🔍 Search</button>
+</form>
+
+    <div class="hero-images">
+      <img src="https://images.unsplash.com/photo-1528901166007-3784c7dd3653" alt="Nature 1">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Nature 2">
+      <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Nature 3">
+    </div>
+    </div>
+  </section>
+
+  <section class="destination-section">
+    <div class="destination-section-heading">
+      <h2>Top Festival Destinations</h2>
+      <p>Explore some of the most breathtaking and unforgettable places around the world for your next adventure.</p>
+    </div>
+    <div class="destination-cards-wrapper">
+      <div class="destination-card">
+        <img src="diwali.webp" alt="diwali">
+        <div class="card-content">
+          <h4>DIWALI</h4>
+          <p> Festival of lights, celebrated with diyas, fireworks, and sweets.</p>
+          <a href="details.jsp?title=DIWALI&price=5500&img=pics/diwali.webp" class="read-btn" style="
+    display: inline-block;
+    background-color: #ff6b00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif;
+">Read Now</a>
+          
+        </div>
+      </div>
+      <div class="destination-card">
+        <img src="holi.webp" alt="holi">
+        <div class="card-content">
+          <h4>HOLI</h4>
+          <p> Festival of colors, joyfully celebrated with colors, water, and sweets.</p>
+           <a href="details.jsp?title=HOLI&price=5500&img=pics/holi.webp" class="read-btn" style="
+    display: inline-block;
+    background-color: #ff6b00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif;
+">Read Now</a>
+        </div>
+      </div>
+      <div class="destination-card">
+        <img src="bihu.webp" alt="bihu">
+        <div class="card-content">
+          <h4>BIHU</h4>
+          <p>Assamese new year, marked by Bihu dance, music and feasting.</p>
+           <a href="details.jsp?title=BIHU&price=5500&img=pics/bihu.webp" class="read-btn" style="
+    display: inline-block;
+    background-color: #ff6b00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif;
+">Read Now</a>
+        </div>
+      </div>
+      <div class="destination-card">
+        <img src="navratri.webp" alt="navratri">
+        <div class="card-content">
+          <h4>NAVRATRI</h4>
+          <p> 9 nights of dance (Garba and Dandiya), worshipping different avatars of Goddess Durga.</p>
+           <a href="details.jsp?title=NAVRATRI&price=5500&img=pics/navratri.webp" class="read-btn" style="
+    display: inline-block;
+    background-color: #ff6b00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif;
+">Read Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="destination-section">
+    <div class="destination-cards-wrapper">
+      <div class="destination-card">
+        <img src="ganesh_chaturti.webp" alt="ganesh_chaturti">
+        <div class="card-content">
+          <h4>GANESH CHATURTI</h4>
+          <p>10-day celebration of Lord Ganesha with idol immersion.</p>
+           <a href="details.jsp?title=GANESH CHATURTI&price=5500&img=pics/ganesh_chaturti.webp" class="read-btn" style="
+    display: inline-block;
+    background-color: #ff6b00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif;
+">Read Now</a>
+        </div>
+      </div>
+      <div class="destination-card">
+        <img src="makar_sankranti.webp" alt="makar_sankranti">
+        <div class="card-content">
+          <h4>MAKAR SANKRANTI</h4>
+          <p>A tropical paradise with beaches, temples, and rice fields.</p>
+           <a href="details.jsp?title=MAKAR SANKRANTI&price=5500&img=pics/makar_sankranti.webp" class="read-btn" style="
+    display: inline-block;
+    background-color: #ff6b00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif;
+">Read Now</a>
+        </div>
+      </div>
+      <div class="destination-card">
+        <img src="ram_navami.webp" alt="Dubai">
+        <div class="card-content">
+          <h4>RAM NAVAMI</h4>
+          <p>Birth of Lord Rama, celebrated with prayers and processions</p>
+           <a href="details.jsp?title=RAM NAVAMI&price=5500&img=pics/ram_navami.webp" class="read-btn" style="
+    display: inline-block;
+    background-color: #ff6b00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif;
+">Read Now</a>
+        </div>
+      </div>
+      <div class="destination-card">
+        <img src="chhath.webp" alt="New York">
+        <div class="card-content">
+          <h4>CHHATH</h4>
+          <p>Dedicated to Sun God with river offerings and rituals.</p>
+           <a href="details.jsp?title=CHHATH&price=5500&img=pics/chhath.webp" class="read-btn" style="
+    display: inline-block;
+    background-color: #ff6b00;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    font-family: Arial, sans-serif;
+">Read Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features-section">
+    <div class="feature-card">
+      <img src="https://cdn-icons-png.flaticon.com/128/869/869869.png" width="50">
+      <h3>Calculate Weather</h3>
+      <p>We make plans according to upcoming weather.</p>
+    </div>
+    <div class="feature-card">
+      <img src="https://cdn-icons-png.flaticon.com/128/2659/2659360.png" width="50">
+      <h3>Best Tour Guide</h3>
+      <p>Experienced guides with 12+ years expertise.</p>
+    </div>
+    <div class="feature-card">
+      <img src="https://cdn-icons-png.flaticon.com/128/2659/2659388.png" width="50">
+      <h3>Customization</h3>
+      <p>Outstanding services customized to your needs.</p>
+    </div>
+  </section>
+  
+ 
+  <footer>
+    <footer style="background: url('') no-repeat center center/cover, #0d1b2a; color: #fff; font-family: 'Segoe UI', sans-serif; padding: 60px 30px 20px;">
+        <div style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 40px;">
+    
+            <!-- Link Section 1 -->
+            <div style="flex: 1; min-width: 200px;">
+                <h4 style="margin-bottom: 10px; border-bottom: 2px solid #38bdf8; display: inline-block;">Quick Links</h4>
+                <ul style="list-style: none; padding: 0; margin-top: 10px;">
+                    <li><a href="index.jsp" style="color: #ccc; text-decoration: none;">Home</a></li>
+                    <li><a href="about.jsp" style="color: #ccc; text-decoration: none;">About Us</a></li>
+                    <li><a href="destination.jsp" style="color: #ccc; text-decoration: none;">Destinations</a></li>
+                    <li><a href="contact.jsp" style="color: #ccc; text-decoration: none;">Contact</a></li>
+                    <li><a href="bookTrip.jsp" style="color: #ccc; text-decoration: none;">My Bookings</a></li>
+                </ul>
+            </div>
+    
+            <!-- Link Section 2 -->
+            <div style="flex: 1; min-width: 200px;">
+                <h4 style="margin-bottom: 10px; border-bottom: 2px solid #38bdf8; display: inline-block;">More Info</h4>
+                <ul style="list-style: none; padding: 0; margin-top: 10px;">
+                    <li><a href="#" style="color: #ccc; text-decoration: none;">Careers</a></li>
+                    <li><a href="#" style="color: #ccc; text-decoration: none;">Privacy Policy</a></li>
+                    <li><a href="#" style="color: #ccc; text-decoration: none;">Terms and Conditions</a></li>
+                    <li><a href="#" style="color: #ccc; text-decoration: none;">Support</a></li>
+                </ul>
+            </div>
+    
+          <!-- Contact Section -->
+    <div style="flex: 1; min-width: 250px;">
+        <h4 style="margin-bottom: 10px; border-bottom: 2px solid #38bdf8; display: inline-block;">Contact</h4>
+        <div style="margin: 10px 0; color: #ccc; line-height: 1.6;">
+            Vishal Bharat Tourism Pvt. Ltd.<br>
+            123 Travel Street, Delhi, India<br>
+            +91 9318395641<br>
+            explore@vishalbharat.in
+        </div>
+    
+        <!-- Social Icons -->
+        <div style="margin-top: 15px; display: flex; gap: 15px;">
+            <a href="#" style="color: #38bdf8; font-size: 22px;">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" style="color: #38bdf8; font-size: 22px;">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" style="color: #38bdf8; font-size: 22px;">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a href="#" style="color: #38bdf8; font-size: 22px;">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+    </div>
+    
+    
+            </div>
+       
+    
+        <!-- Bottom Strip -->
+        <div style="margin-top: 40px; border-top: 1px solid #334155; padding-top: 15px; text-align: center; color: #94a3b8; font-size: 14px;">
+            Â© <%= java.util.Calendar.getInstance().get(java.util.Calendar.YEAR) %> Vishal Bharat. All rights reserved..
+        </div>
+  </footer>
+  
+
+ 
+
+</body>
+</html>
